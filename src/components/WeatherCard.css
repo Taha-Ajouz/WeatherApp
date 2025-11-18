@@ -1,0 +1,140 @@
+.main_container {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.weather_card {
+  background-color: #0000ffe6;
+  padding: 20px 40px;
+  border: 1px solid white(255, 255, 255);
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.weather1_container {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  margin: 25px;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.weather2_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+  color: white;
+  font-size: 2rem;
+}
+
+input {
+  width: 100%;
+  padding: 15px;
+  background-color: white(255, 255, 255, 0);
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 30px;
+  margin-bottom: 10px;
+  color: black;
+
+}
+input::placeholder {
+  color: rgba(0, 0, 0, 0.507);
+  padding: 5px;
+
+}
+
+button {
+  width: 20px;
+  padding: 22px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 100%;
+  background-color: white;
+  margin-bottom: 10px;
+  background-image: url('search.png');
+  background-repeat: no-repeat;
+  background-size: 20px;
+  cursor: pointer;
+  background-position: 50%;
+}
+
+.weather_search{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+p {
+  font-size: 0.8rem;
+}
+
+.city {
+  font-size: 2rem;
+}
+
+.temp {
+  font-size: 4rem;
+}
+
+.weather3_container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  color: white;
+}
+
+.weather_container-last {
+  display: flex;
+  justify-content: space-around;
+  gap: 90px;
+  margin-top: 30px;
+  align-items: center;
+  margin-left: 40px;
+}
+.det {
+  font-size: 1.5rem;
+}
+
+.cloud {
+  width: 220px;
+}
+.wind {
+  width: 30px;
+  position: absolute;
+  top: 10%;
+  right: 105%;
+}
+.wind_cont {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+
+.hum_cont {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  color: white;
+}
+.hum {
+  width: 30px;
+  position: absolute;
+  top: 10%;
+  right: 105%;
+}
+
+#error{
+  color: rgba(224, 190, 190, 0.798);
+  position: absolute;
+  top: 25%;
+  left: 43.4%;
+  display: none;
+}
